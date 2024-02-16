@@ -1,2 +1,3 @@
-# kube-mono-sample
-Sample Kubernetes Mongo Deployment
+# Kubernetes Cheatsheet
+
+Sample Kubernetes Cheatsheet for Learning
