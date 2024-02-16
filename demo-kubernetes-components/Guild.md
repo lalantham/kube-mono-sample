@@ -1,9 +1,10 @@
 ### File Order
+```bash
 mongo-secret.yaml
 mongo.yaml
 mongo-configmap.yaml
 mongo-express.yaml
-
+```
 
 # OCI Internal Load Balancer Service
 ```bash
