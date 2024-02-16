@@ -6,7 +6,7 @@ mongo-configmap.yaml
 mongo-express.yaml
 ```
 
-# OCI Internal Load Balancer Service
+### OCI Internal Load Balancer Service
 ```bash
 apiVersion: v1
 kind: Service
