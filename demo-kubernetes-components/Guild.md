@@ -24,6 +24,7 @@ spec:
   - port: 8081
   selector:
     app: mongo-express
+```
 
 ### With Custom Ports
 ```bash
