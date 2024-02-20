@@ -1,3 +1,29 @@
+## Image to Docker
+### Create Repo in OCI
+
+### Create Auth Token
+
+### Loginto the registry
+```bash
+docker login sin.ocir.io
+```
+URL Format: <regioncode>.ocir.io
+
+Username Format: oracleidentitycloudservice/lalantha.madhushan@lexiicontech.com - <identity_provider>/username
+
+Password: Generated Auth Token
+
+### Build & Tag Images
+```bash
+docker tag alphapy sin.ocir.io/bmkzpkoomgkt/alphanode/alphapy:latest
+```
+Taggin Format: docker tag alphapy <registry_url>/<namespace>/<repo_name>/<image>:<tag>
+
+### Push Images
+```bash
+docker push sin.ocir.io/bmkzpkoomgkt/alphanode/alphapy:latest
+```
+## Image to Kubernetes
 ### Install Kyverno using Helm
 ```bash
 helm repo add kyverno https://kyverno.github.io/kyverno/
