@@ -1,4 +1,4 @@
-## Image to Docker
+## 01. Image to Docker
 ### Create Repo in OCI
 
 ### Create Auth Token
@@ -23,7 +23,7 @@ Taggin Format: docker tag alphapy <registry_url>/<namespace>/<repo_name>/<image>
 ```bash
 docker push sin.ocir.io/bmkzpkoomgkt/alphanode/alphapy:latest
 ```
-## Image to Kubernetes
+## 02. Image to Kubernetes
 ### Install Kyverno using Helm
 ```bash
 helm repo add kyverno https://kyverno.github.io/kyverno/
