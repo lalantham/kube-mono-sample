@@ -94,3 +94,5 @@ Replace "sin.ocir.io/bmkzpkoomgkt" with working namespace.
 ```bash
 kubectl apply -f add-imagepullsecret.yaml
 ```
+
+Reference: https://docs.oracle.com/en/learn/oke-kyverno-imagepullsecrets/index.html
