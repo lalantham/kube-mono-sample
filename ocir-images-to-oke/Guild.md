@@ -122,3 +122,4 @@ kubectl apply -f add-imagepullsecret.yaml
 ```
 
 Reference: https://docs.oracle.com/en/learn/oke-kyverno-imagepullsecrets/index.html
+           https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengpullingimagesfromocir.htm
