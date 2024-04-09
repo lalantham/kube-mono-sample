@@ -1,3 +1,3 @@
-## Kubernetes Cheatsheet
+# Kubernetes Cheatsheet
 
 Sample Kubernetes Cheatsheet for Learning
